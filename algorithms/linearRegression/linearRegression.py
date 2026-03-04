@@ -38,8 +38,8 @@ print("Predictions:", y_pred)
 mse = sum((y[i] - y_pred[i])**2 for i in range(len(y))) / len(y)
 print("MSE:", mse)
 
-# mean_y = sum(y)/len(y)
-# y_mean_pred = [mean_y for _ in y]
+mean_y = sum(y)/len(y)
+y_mean_pred = [mean_y for _ in y]
 
-# mse_mean = sum((y[i] - y_mean_pred[i])**2 for i in range(len(y))) / len(y)
-# print(mse_mean)
+mse_mean = sum((y[i] - y_mean_pred[i])**2 for i in range(len(y))) / len(y)
+print(mse_mean)
