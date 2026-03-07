@@ -4,17 +4,25 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import numpy as np
 
 # dataset
-X = np.array([[1],[2],[3],[4],[5],[6],[7],[8]])
+X = np.array([[1],[5],[3],[10],[5],[3],[7],[2]])
 y = np.array([0,0,0,0,1,1,1,1])
 
 # train model
 model = LogisticRegression()
 model.fit(X,y)
 
+
+print("Class 0(fail)   class 1(pass)")
+print(model.predict_proba(X))
+
 # predictions
 pred = model.predict(X)
+print(pred)
+print(model.coef_)
+print(model.intercept_)
 
-# evaluation
+# # evaluation
+
 accuracy = accuracy_score(y, pred)
 
 print("Accuracy:", accuracy)

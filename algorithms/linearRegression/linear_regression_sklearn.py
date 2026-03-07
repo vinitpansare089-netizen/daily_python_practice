@@ -1,17 +1,17 @@
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 import numpy as np
 
-###DataSet
-
-x = np.array([1,2,3,4,5]).reshape(-1,1)
+X = np.array([1,2,3,4,5]).reshape(-1,1)
 y = np.array([2,4,5,4,5])
+
 model = LinearRegression()
-model.fit(x, y)
+model.fit(X,y)
 
-print("Slope: ", model.coef_[0])
-print("Intercept:", model.intercept_)
+pred = model.predict(X)
 
-pred = model.predict(x)
+mse = mean_squared_error(y, pred)
+rmse = np.sqrt(mse)
 
-mse = np.mean((y - pred)**2)
 print("MSE:", mse)
+print("RMSE:", rmse)
