@@ -8,7 +8,8 @@ This repo contains my daily Python & ML practice through algorithms.
 - NumPy
 - Pandas
 - ML Foundations
--skilit learn
+- skilit learn
+- 
 
 ## Goal
 Build strong foundations for AI/ML.
