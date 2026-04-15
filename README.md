@@ -1,6 +1,6 @@
 # Daily Python Learning 🚀
 
-This repo contains my daily Python & ML practice.
+This repo contains my daily Python & ML practice through algorithms.
 
 ## Topics Covered
 - Python Basics
