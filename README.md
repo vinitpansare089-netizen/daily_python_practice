@@ -13,5 +13,4 @@ This repo contains my daily Python & ML practice through algorithms.
 
 ## Goal
 Build strong foundations for AI/ML.
-
 By: Vinit (Trinovous)
