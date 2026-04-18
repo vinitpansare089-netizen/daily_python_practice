@@ -10,6 +10,7 @@ This repo contains my daily Python & ML practice through algorithms.
 - ML Foundations
 - skilit learn
 - Algorithms
+
 ## Goal
 Build strong foundations for AI/ML.
 
