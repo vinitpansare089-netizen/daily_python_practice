@@ -10,7 +10,7 @@ def ml_pipeline(scores: dict, threshold: float) -> dict:
 
     if not isinstance(threshold, Number):
         raise ValueError("Value should be Number")
-#######Filteration of values
+#####Filteration of values
     cleaned = {}
     
     for key, value in scores.items():
