@@ -1,7 +1,7 @@
 from numbers import Number
 
 def ml_pipeline(scores: dict, threshold: float) -> dict:
-    ###Valdation of Inputs
+###Valdation of Inputs
     if not isinstance(scores, dict):
         raise TypeError("Input mut be dict")
     
