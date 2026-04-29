@@ -20,7 +20,7 @@ def ml_pipeline(scores: dict, threshold: float) -> dict:
         if len(cleaned) == 0:
             raise ValueError("Model not passsed this cleaning test")
         
-###scale of values between 0 - 1 
+###scale of values between 0 - 1
 
     values = list(cleaned.values())
 
