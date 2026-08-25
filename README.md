@@ -33,3 +33,4 @@ By: Vinit (Trinovous)
 ✅ type hints
 ✅ docstrings
 ✅ validation (all(), isinstance)
+
