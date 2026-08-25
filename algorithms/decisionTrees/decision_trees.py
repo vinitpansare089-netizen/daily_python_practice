@@ -7,6 +7,24 @@ y = np.array([0,0,1,1])
 
 # print(x)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 model = DecisionTreeClassifier()
 
 model.fit(x, y)
