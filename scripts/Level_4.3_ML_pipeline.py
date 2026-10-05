@@ -63,7 +63,6 @@ def ml_pipeline(scores: dict, threshold: float) -> dict:
        "best_model": best_model
     }
 
-
 scores = {
    "A": 40,
    "B": 70,
